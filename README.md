@@ -1,0 +1,1 @@
+Este es un repositorio creado con el fin de realizar una evaluacion sobre los frameworks desarollados para la tesina de grado denominada "Normalizacion e Identificacion de objetos duplicados sobre contenido extraido de la web".
