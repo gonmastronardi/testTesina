@@ -1,8 +1,8 @@
-const debugField = require("../../lib/debuggers").field;
-const debugInfo = require("../../lib/debuggers").info;
+import {field as debugField} from "../../lib/debuggers";
+import {info as debugInfo} from "../../lib/debuggers";
 
 //abstract class, it works as an interface
-module.exports = class FieldNormalizer {
+export default class FieldNormalizer {
   constructor() {
     //if setted, console.logs fields properties
     //export DEBUG=field,info

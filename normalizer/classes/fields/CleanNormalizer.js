@@ -1,6 +1,6 @@
-const FieldNormalizer = require("./FieldNormalizer");
+import FieldNormalizer from "./FieldNormalizer";
 
-module.exports = class CleanNormalizer extends FieldNormalizer {
+export default class CleanNormalizer extends FieldNormalizer {
   //it receive the words we want to delete in the text.
   constructor(wordsToDelete) {
     super();

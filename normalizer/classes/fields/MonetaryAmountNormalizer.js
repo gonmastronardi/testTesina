@@ -1,6 +1,6 @@
-const FieldNormalizer = require("./FieldNormalizer");
+import FieldNormalizer from "./FieldNormalizer";
 
-module.exports = class MonetaryAmountNormalizer extends FieldNormalizer {
+export default class MonetaryAmountNormalizer extends FieldNormalizer {
   
   normalize(anObject, attribute) {
     let amount = anObject[attribute];
