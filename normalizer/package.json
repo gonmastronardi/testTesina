@@ -1,8 +1,11 @@
 {
   "name": "normalizer",
+
+
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+ 
   "scripts": {
     "test": "jest --watchAll"
   },
@@ -17,6 +20,7 @@
     "underscore": "^1.13.4"
   },
   "devDependencies": {
+    "babel-jest": "^29.6.1",
     "jest": "^24.9.0"
   }
 }

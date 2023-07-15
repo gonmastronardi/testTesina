@@ -1,4 +1,4 @@
-import FieldNormalizer from "./FieldNormalizer";
+import FieldNormalizer from "./FieldNormalizer.js";
 
 export default class CleanNormalizer extends FieldNormalizer {
   //it receive the words we want to delete in the text.

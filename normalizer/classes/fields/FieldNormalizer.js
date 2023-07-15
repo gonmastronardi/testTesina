@@ -1,5 +1,5 @@
-import {field as debugField} from "../../lib/debuggers";
-import {info as debugInfo} from "../../lib/debuggers";
+import {field as debugField} from "../../lib/debuggers.js";
+import {info as debugInfo} from "../../lib/debuggers.js";
 
 //abstract class, it works as an interface
 export default class FieldNormalizer {

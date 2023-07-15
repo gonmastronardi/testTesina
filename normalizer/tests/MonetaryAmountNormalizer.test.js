@@ -1,4 +1,4 @@
-const MonetaryAmountNormalizer = require("../classes/fields/MonetaryAmountNormalizer");
+const MonetaryAmountNormalizer = require("../classes/fields/MonetaryAmountNormalizer.js");
 
 const monetaryAmountNormalizer = new MonetaryAmountNormalizer();
   // 15000,555

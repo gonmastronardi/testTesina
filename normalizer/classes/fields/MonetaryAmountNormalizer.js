@@ -1,4 +1,4 @@
-import FieldNormalizer from "./FieldNormalizer";
+import FieldNormalizer from "./FieldNormalizer.js";
 
 export default class MonetaryAmountNormalizer extends FieldNormalizer {
   
